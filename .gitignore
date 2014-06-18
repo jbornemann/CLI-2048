@@ -2,3 +2,6 @@
 .DS_STORE
 /.gradle
 /gradle
+*.iws
+*.ipr
+*.iml
