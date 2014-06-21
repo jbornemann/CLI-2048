@@ -7,6 +7,17 @@ repositories {
 
 
 dependencies {
-  "org.codehaus.groovy:groovy-all:2.3"
+  compile "org.codehaus.groovy:groovy:2.3.0"
+  compile "org.apache.mahout.commons:commons-cli:2.0-mahout"
+  compile "org.fusesource.jansi:jansi:1.11"
+
+  testCompile "org.spockframework:spock-core:0.7-groovy-2.0"
+}
+
+idea {
+    project {
+        jdkName = '1.6'
+        languageLevel = '1.6'
+    }
 }
 
